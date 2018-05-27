@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TPT_aplikatsioon.Lingid">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="Siseveeb" Text="Siseveeb"
+                HorizontalOptions="CenterAndExpand"></Button>
+            <Button x:Name="Tunniplaan" Text="Tunniplaan"
+                HorizontalOptions="CenterAndExpand"></Button>
+            <Button x:Name="Õppetoetused" Text="Õppetoetused"
+                HorizontalOptions="CenterAndExpand"></Button>
+            <Button x:Name="Õpilaskodu" Text="Õpilaskodu"
+                HorizontalOptions="CenterAndExpand"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,8 @@
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\obj\Debug\netstandard2.0\TPT_aplikatsioon.csproj.CoreCompileInputs.cache
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\obj\Debug\netstandard2.0\TPT_aplikatsioon.AssemblyInfoInputs.cache
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\obj\Debug\netstandard2.0\TPT_aplikatsioon.AssemblyInfo.cs
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\bin\Debug\netstandard2.0\TPT_aplikatsioon.deps.json
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\bin\Debug\netstandard2.0\TPT_aplikatsioon.dll
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\bin\Debug\netstandard2.0\TPT_aplikatsioon.pdb
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\obj\Debug\netstandard2.0\TPT_aplikatsioon.dll
+C:\Users\OliverKilk\source\repos\TPT_aplikatsioon\TPT_aplikatsioon\TPT_aplikatsioon\obj\Debug\netstandard2.0\TPT_aplikatsioon.pdb

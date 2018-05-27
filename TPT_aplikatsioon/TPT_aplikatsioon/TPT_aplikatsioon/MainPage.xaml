@@ -1,0 +1,38 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TPT_aplikatsioon"
+             x:Class="TPT_aplikatsioon.MainPage"
+             BackgroundColor="#000000"
+             >
+
+    <NavigationPage Title="TPT" Icon="schedule.png" BackgroundColor="White" BarBackgroundColor="#143058">
+        <x:Arguments>
+            <local:TPT />
+        </x:Arguments>
+    </NavigationPage>
+    
+    <NavigationPage Title="Uudised" Icon="schedule.png" BackgroundColor="White" BarBackgroundColor="#143058">
+        <x:Arguments>
+            <local:Uudised />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Tunniplaan" Icon="schedule.png" BackgroundColor="White" BarBackgroundColor="#143058">
+        <x:Arguments>
+            <local:Tunniplaan />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Tundide ajad" Icon="schedule.png" BackgroundColor="White" BarBackgroundColor="#143058">
+        <x:Arguments>
+            <local:Tunnid />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Lingid" Icon="schedule.png" BackgroundColor="White" BarBackgroundColor="#143058">
+        <x:Arguments>
+            <local:Lingid />
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>
