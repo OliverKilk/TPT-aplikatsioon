@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "16643cc303b5dc27a9b68fcbe87de6d304564f8b"
+    "signature": "9a0d7a6d4d1e459bf894d3ce52a1a34507a728f1"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,11 +9,25 @@
     ".NETStandard,Version=v2.0/": {
       "TPT_aplikatsioon/1.0.0": {
         "dependencies": {
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "NETStandard.Library": "2.0.1",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "runtime": {
           "TPT_aplikatsioon.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/1.6.1": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -36,6 +50,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AppCenter/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ly1R8HcB5zbp8J2/F3eVXVK1ThnSmVrjsANnGG9hwtvjhI/oO+jvnKsdY91VwKVReSuXi52bLtemGydKhiv8Dg==",
+      "path": "microsoft.appcenter/1.6.1",
+      "hashPath": "microsoft.appcenter.1.6.1.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2K/ZwzBDRB5xevOPu1bNJ7f0GWGidCk8HSGC2eRhQp0Ry06/HNCbSa/b6KXLVjzTRt5Hn7f9nIEeoQ9i9PzMTg==",
+      "path": "microsoft.appcenter.crashes/1.6.1",
+      "hashPath": "microsoft.appcenter.crashes.1.6.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
