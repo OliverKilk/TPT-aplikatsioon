@@ -5,6 +5,10 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 namespace TPT_aplikatsioon.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -26,6 +30,11 @@ namespace TPT_aplikatsioon.iOS
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
+
+            AppCenter.Start("ios=90b17edc-a023-490a-b35b-07c23f1a48f9;" +
+                  "uwp={Your UWP App secret here};" +
+                  "android={Your Android App secret here}",
+                  typeof(Analytics), typeof(Crashes));
         }
     }
 }
